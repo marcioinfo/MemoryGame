@@ -1,0 +1,111 @@
+<!-- <!doctype html> -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Memory Game</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+
+  <main>
+    <div class="container">
+
+      <h2>Memory Game</h2>
+      <section class="score-panel">
+        <span class="left-span">
+          <ul class="stars">
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+            <li><i class="fas fa-star"></i></li>
+          </ul>
+
+          <span class="moves">0</span> moves
+          <span class="timer"></span>
+        </span>
+        <span class="right-span">
+          <span class="restart">
+            <i class="fas fa-redo"></i>
+          </span>
+        </span>
+      </section>
+
+      <ul class="card-deck">
+        <li class="card " type="gem">
+          <i class="far fa-gem"></i>
+        </li>
+        <li class="card" type="plane">
+          <i class="fas fa-paper-plane"></i>
+        </li>
+        <li class="card" type="anchor">
+          <i class="fas fa-anchor"></i>
+        </li>
+        <li class="card" type="bolt">
+          <i class="fas fa-bolt"></i>
+        </li>
+        <li class="card" type="cube">
+          <i class="fas fa-cube"></i>
+        </li>
+        <li class="card" type="anchor">
+          <i class="fas fa-anchor"></i>
+        </li>
+        <li class="card" type="leaf">
+          <i class="fas fa-leaf"></i>
+        </li>
+        <li class="card" type="bicycle">
+          <i class="fas fa-bicycle"></i>
+        </li>
+        <li class="card" type="gem">
+          <i class="far fa-gem"></i>
+        </li>
+        <li class="card" type="bomb">
+          <i class="fas fa-bomb"></i>
+        </li>
+        <li class="card" type="leaf">
+          <i class="fas fa-leaf"></i>
+        </li>
+        <li class="card" type="bomb">
+          <i class="fas fa-bomb"></i>
+        </li>
+        <li class="card" type="bolt">
+          <i class="fas fa-bolt"></i>
+        </li>
+        <li class="card" type="bicycle">
+          <i class="fas fa-bicycle"></i>
+        </li>
+        <li class="card" type="plane">
+          <i class="fas fa-paper-plane"></i>
+        </li>
+        <li class="card" type="cube">
+          <i class="fas fa-cube"></i>
+        </li>
+      </ul>
+
+      <div class="modal">
+        <div class="modal-content">
+          <h2>VICTORY!</h2>
+          <a class="close" href="#">×</a>
+          <div class="congrats-message">
+            You rock.
+          </div>
+          <div class="info-message">
+            <p>You made <span class="final-moves"></span> moves in <span class="total-time"></span></p>
+            <p>Rating: <span class="star-rating"></span></p>
+          </div>
+          <button class="play-again">
+            Play again
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <script src="js/app.js"></script>
+</body>
+</html>
