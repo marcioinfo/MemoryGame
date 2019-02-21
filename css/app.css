@@ -168,6 +168,8 @@ h2 {
 	color: #333;
 }
 
+
+
 /* Affects "x" button on modal */
 .close {
 	position: absolute;
@@ -191,7 +193,8 @@ h2 {
 }
 
 .congrats-message {
-  margin-top: 0.9em;
+	margin-top: 0.9em;
+	
 }
 
 /* Displays stars */
