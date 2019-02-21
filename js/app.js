@@ -1,6 +1,7 @@
 // define all variable that will be used throughout the code
 let card = document.getElementsByClassName('card');
 let cards = [...card];
+
 console.log(cards);
 
 let deck = document.getElementsByClassName('card-deck')[0];
@@ -46,6 +47,7 @@ function shuffle(array) {
   }
 
 // Shuffles cards upon page load
+
 document.body.onload = startMemoryGame();
 // Calls startMemoryGame()
 resetButton.addEventListener('click', startMemoryGame);
